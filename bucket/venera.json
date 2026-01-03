@@ -10,12 +10,7 @@
         }
     },
     "bin": "venera.exe",
-    "shortcuts": [
-        [
-            "venera.exe",
-            "Venera"
-        ]
-    ],
+    "shortcuts": [["venera.exe", "Venera"]],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -24,8 +19,8 @@
             }
         },
         "hash": {
-            "url": "https://github.com/venera-app/venera/releases/tag/v$version",
-            "find": "$basename[\\s\\S]*?sha256:([a-f0-9]{64})"
+            "url": "https://github.com/venera-app/venera/releases",
+            "find": "(?s)\\bv$version\\b[\\s\\S]*?$basename[\\s\\S]{0,300}?sha256:([A-Fa-f0-9]{64})"
         }
     }
 }
