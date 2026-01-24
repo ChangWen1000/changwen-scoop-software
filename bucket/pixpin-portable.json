@@ -8,6 +8,7 @@
     },
     "url": "https://download.pixpinapp.com/PixPin_intl_en-us_2.4.8.0.zip",
     "hash": "3478b7783176baebba28df786aec822c7edeeb0f221976f9f2f57aa483b87366",
+    "extract_dir": "PixPin",
     "bin": "PixPin.exe",
     "shortcuts": [["PixPin.exe", "PixPin"]],
     "checkver": {
