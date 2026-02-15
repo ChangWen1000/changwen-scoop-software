@@ -1,17 +1,22 @@
 {
-    "version": "5.2.0",
+    "version": "5.3.1",
     "description": "Animeko (Ani) - 一站式弹幕追番平台。",
     "homepage": "https://github.com/open-ani/animeko",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/open-ani/animeko/releases/download/v5.2.0/ani-5.2.0-windows-x86_64.zip",
-            "hash": "sha1:2e81256209b5499d7700eda64ba61a8e66084bcf"
+            "url": "https://github.com/open-ani/animeko/releases/download/v5.3.1/ani-5.3.1-windows-x86_64.zip",
+            "hash": "sha1:698715be8f6a78fa841551fef4f5547b706389e2"
         }
     },
     "extract_dir": "Ani",
     "bin": "Ani.exe",
-    "shortcuts": [["Ani.exe", "Ani"]],
+    "shortcuts": [
+        [
+            "Ani.exe",
+            "Ani"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
